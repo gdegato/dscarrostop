@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--ct-color-bg-secondary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: -25px;
+}
+
+footer p {
+    color: var(--ct-color-font-quaternary);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+}
+
+@media(min-width:1200px) {
+    .footer-style {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+} 
